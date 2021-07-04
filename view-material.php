@@ -127,7 +127,7 @@ if(isset($_GET["id"])) {
 
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" placeholder="Добавьте ссылку" id="floatingModalLink" name="link">
+                        <input type="text" class="form-control" placeholder="Добавьте ссылку" id="floatingModalLink" name="link" required>
                         <label for="floatingModalLink">Ссылка</label>
                         <div class="invalid-feedback">
                             Пожалуйста, заполните поле
@@ -163,7 +163,7 @@ if(isset($_GET["id"])) {
 
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" placeholder="Добавьте ссылку" id="floatingModalLink" name="link">
+                        <input type="text" class="form-control" placeholder="Добавьте ссылку" id="floatingModalLink" name="link" required>
                         <label for="floatingModalLink">Ссылка</label>
                         <div class="invalid-feedback">
                             Пожалуйста, заполните поле
